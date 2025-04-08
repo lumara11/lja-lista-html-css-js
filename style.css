@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 20px;
+    color:black; /*Cor do texto*/
+}
+
+h1{
+    color:brown;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h4{
+    color:darkblue;
+}
+
+.classes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
