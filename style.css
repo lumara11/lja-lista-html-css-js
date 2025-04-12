@@ -1,18 +1,21 @@
 body{
-    background-color: antiquewhite;
+    background-color:white;
     margin: 0;
     padding: 20px;
     color:black; /*Cor do texto*/
 }
 
 h1{
-    color:brown;
     text-align: center;
     margin-bottom: 10px;
+    font-size: 3em;
+    background: linear-gradient(to right, #501A2D, #CF623D, #CC1D16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h4{
-    color:darkblue;
+    color: chocolate;
 }
 
 .galeria{
@@ -23,10 +26,35 @@ h4{
 }
 
 .galeria-item{
-    background-color: blue;
-    border-radius: 8px;
+    background-color:white;
+    border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    padding: 10px;
-
+    padding: 8px;
+    flex: 1 1 calc(33.33% - 20px);
     text-align: center;
 }
+
+.galeria-item h4{
+    margin: 10px 0px;
+    color: brown;
+    font-size: 23px;
+}
+
+.galeria-item img{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+.galeria-item img:hover{
+    transform: scale(1.07);
+    box-shadow: 0 4px 7.5px brown(0, 0, 0, 0, 0.4); 
+}
+
+.galeria-item:hover{
+    transform: scale(1.07);
+    box-shadow: 0 4px 7.5px brown(0, 0, 0, 0, 0.4); 
+}
+
