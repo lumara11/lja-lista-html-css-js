@@ -1,0 +1,9 @@
+#mensagem {
+  color: blue;
+  font-weight: bold;
+}
+.destaque {
+    background-color: yellow;
+    padding: 10px;
+  }
+  
